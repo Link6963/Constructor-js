@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>G</title> 
+   
+    <script src="https://jquery.com"></script>
+</head> 
+<body> 
+   
+    <h1>Click Me!</h1>
+
+    <script>
+   var Car = function (x,y) {
+       this.x
+       this.y
+       }
+        var tesla = new Car(10, 20)
+        tesla
+    </script> 
+</body> 
+</html>
