@@ -3,19 +3,18 @@
 <head> 
     <title>G</title> 
    
-    <script src="https://jquery.com"></script>
+    <script srv="https://code.juery.com/jquery-2.1.0.js"></script>
+    <script src=""></script>
 </head> 
 <body> 
    
     <h1>Click Me!</h1>
 
     <script>
-   var Car = function (x,y) {
-       this.x
-       this.y
-       }
-        var tesla = new Car(10, 20)
-        tesla
+    var clickHandler = function (event) {
+        console.log("Click!" + event.pageX + " " + event.pageY);
+    };
+    $("h1").click(clickHandler);
     </script> 
 </body> 
 </html>
